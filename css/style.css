@@ -264,8 +264,8 @@ header .sp_navi {
     #contents #sidemenu .search-box .search-title {
       padding: 15px 20px 0 20px; }
     #contents #sidemenu .search-box #searchInput {
-      margin: 5px 20px 10px 15px;
-      width: 85%; }
+      margin: 5px 20px 10px 20px;
+      width: 80%; }
   #contents #sidemenu .page-link-box {
     margin-top: 10px; }
   #contents #sidemenu .categories-box {
