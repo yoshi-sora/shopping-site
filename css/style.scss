@@ -289,7 +289,7 @@ body {
                  }
                  
                  img{
-                     padding: 0 20px 15px 20px;
+                     padding: 0 20px 0 20px;
                  }
                  
                  p{
@@ -302,7 +302,7 @@ body {
                          @include fontsize(12);
                          font-weight: bold;
                          color: $glay1;
-                         margin-bottom: 12px;
+                         margin-bottom: 5px;
                      }
                  }
                  p.guide-box-text1{
@@ -411,7 +411,7 @@ body {
                      list-style: none;
                      margin-bottom: 0;
                      border-bottom: 2px solid $base;
-                     padding:10px 15px;
+                     padding: 10px 10px;
                      
                  }
              }
@@ -719,6 +719,27 @@ body {
                      td.checkbox{
                          @include fontsize(20);
                          background-color: white;
+                        
+                         
+                       
+                             
+                             #checkboxInput{
+                                 
+                                 display: none;
+                             }
+                             .checkbox-item::before{
+                                 content: "";
+                                  display: block;
+                                  position: absolute;
+                                  
+                                  left: 45%;
+                                  width: 15px;
+                                  height: 15px;
+                                  border: 1px solid #999;
+                                  position: relative;
+                                  
+                             }
+                         
                      }
                  }
              }
