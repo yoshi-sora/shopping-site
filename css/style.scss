@@ -649,6 +649,7 @@ body {
          .products-container{
              background-color: white;
              margin: 15px 0 0 0;
+             padding: 0 10px;
              
              
              
@@ -723,22 +724,15 @@ body {
                          
                        
                              
-                             #checkboxInput{
-                                 
-                                 display: none;
+                             .custom-control-label::before{
+                                 background-color: #fff;
+                                 border: 1px solid #E8E5D8;
+                                 width: 15px;
+                                 height: 15px;
+                                 left: 45%;
+                                 border-radius: 0;
                              }
-                             .checkbox-item::before{
-                                 content: "";
-                                  display: block;
-                                  position: absolute;
-                                  
-                                  left: 45%;
-                                  width: 15px;
-                                  height: 15px;
-                                  border: 1px solid #999;
-                                  position: relative;
-                                  
-                             }
+                             
                          
                      }
                  }
@@ -864,7 +858,7 @@ body {
                 #contents{
                  .container{
                      width:100%;
-                     padding: 0;
+                     padding: 0 10px;
                  }
                  
                  .pan-list{
@@ -872,6 +866,12 @@ body {
                  }
                  .recently-container{
                      margin: 10px 10px 0 10px;
+                     
+                     .recently-box{
+                         p{
+                             margin-top: 10px;
+                         }
+                     }
                  }
                  .guide-container{
                      margin: 0 10px;
@@ -887,6 +887,10 @@ body {
          
          //products.html pcビューここから ----------------->
          @media (min-width: 551px) {
+             
+             #products{
+                 
+                 #contents{
              
              .add-to-cart-sp{
                      display: none;
@@ -1115,8 +1119,16 @@ body {
              }
              
                  
+              }
+              
+              .recently-box{
+                  p{
+                      margin-top: 10px;
+                  }
+              }
              }
-         }
+            } //#products
+         } //min-width
      
  
  
