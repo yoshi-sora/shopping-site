@@ -887,6 +887,23 @@ body {
                  #sidemenu{
                      padding: 0 10px;
                  }
+                 
+                 .about-in{
+                     .about-img{
+                         padding: 10px;
+                     }
+                     .about-text{
+                         padding: 10px 10px 10px 0;
+                     }
+                 }
+                 .shopinfo-in{
+                     .shopinfo-img{
+                         padding: 10px;
+                     }
+                     .shopinfo-text{
+                         padding: 10px 10px 10px 0;
+                     }
+                 }
               }
               
              }
@@ -1133,6 +1150,27 @@ body {
                       margin-top: 10px;
                   }
               }
+              
+               .about-in{
+                     .about-img{
+                         width: 100%;
+                         padding: 10px 10px 0 10px;
+                     }
+                     .about-text{
+                         width: 100%;
+                         padding: 10px;
+                     }
+                 }
+                 .shopinfo-in{
+                     .shopinfo-img{
+                         width: 100%;
+                         padding: 10px 10px 0 10px;
+                     }
+                     .shopinfo-text{
+                         width: 100%;
+                         padding: 10px;
+                     }
+                 }
              }
             } //#products
          } //min-width

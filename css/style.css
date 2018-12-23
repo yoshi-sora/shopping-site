@@ -518,7 +518,15 @@ header .sp_navi {
   #products #contents .guide-container {
     margin: 0 10px; }
   #products #contents #sidemenu {
-    padding: 0 10px; } }
+    padding: 0 10px; }
+  #products #contents .about-in .about-img {
+    padding: 10px; }
+  #products #contents .about-in .about-text {
+    padding: 10px 10px 10px 0; }
+  #products #contents .shopinfo-in .shopinfo-img {
+    padding: 10px; }
+  #products #contents .shopinfo-in .shopinfo-text {
+    padding: 10px 10px 10px 0; } }
 @media (min-width: 551px) {
   #products #contents .add-to-cart-sp {
     display: none; }
@@ -664,6 +672,18 @@ header .sp_navi {
         #products #contents .products-container .description .description-table .td2 {
           width: 80%; }
   #products #contents .recently-box p {
-    margin-top: 10px; } }
+    margin-top: 10px; }
+  #products #contents .about-in .about-img {
+    width: 100%;
+    padding: 10px 10px 0 10px; }
+  #products #contents .about-in .about-text {
+    width: 100%;
+    padding: 10px; }
+  #products #contents .shopinfo-in .shopinfo-img {
+    width: 100%;
+    padding: 10px 10px 0 10px; }
+  #products #contents .shopinfo-in .shopinfo-text {
+    width: 100%;
+    padding: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
