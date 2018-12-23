@@ -732,6 +732,13 @@ body {
                                  left: 45%;
                                  border-radius: 0;
                              }
+                            .custom-control-label::after{
+                                width: 15px;
+                                height: 15px;
+                                left: 45%;
+                                
+                            } 
+                             
                              
                          
                      }

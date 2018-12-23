@@ -424,6 +424,10 @@ header .sp_navi {
           height: 15px;
           left: 45%;
           border-radius: 0; }
+        .products-container .color-size .color-size-table td.checkbox .custom-control-label::after {
+          width: 15px;
+          height: 15px;
+          left: 45%; }
   .products-container .price {
     margin: -15px 10px 0 10px;
     padding: 15px 0 0 0;
